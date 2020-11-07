@@ -5,6 +5,6 @@ i wykonac komenda docker build --tag wojciechwypych .
 .dockerignore znajduje sie wewnatrz plikow zrodlowych
 b) docker build --tag wojciechwypych .
 c) docker run -d p80:3000 wojciechwypych
-d) Uruchamiamy obraz komenda: docker run -p80:3000 wojciechwypych
+d) Uruchamiamy obraz komenda: docker run -p80:3000 wojciechwypych w wyszukiwarce nalezy wpisac localhost
 e) Prosta aplikacja internetowa sluzaca do tworzenia tematow na forum
 Aby uruchomic aplikacje w wyszukiwarce localhost
