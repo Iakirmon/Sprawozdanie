@@ -1,0 +1,10 @@
+a) tar -zxvf Wypych_obraz.tar.gz, tar -zxvf pliki-zrodlowe.tar.gz
+Aby utworzyc obraz nalezy dolaczyc plik Dockerfile do 
+pliki-zrodlowe/Lab_images 
+i wykonac komenda docker build --tag wojciechwypych .
+.dockerignore znajduje sie wewnatrz plikow zrodlowych
+b) docker build --tag wojciechwypych .
+c) docker run -d p80:3000 wojciechwypych
+d) Uruchamiamy obraz komenda: docker run -p80:3000 wojciechwypych
+e) Prosta aplikacja internetowa sluzaca do tworzenia tematow na forum
+Aby uruchomic aplikacje w wyszukiwarce localhost
